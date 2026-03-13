@@ -1,0 +1,116 @@
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 32px 80px;
+}
+
+.headlineBlock h1 {
+  margin: 0;
+}
+
+.headlineBlock p {
+  margin-top: 10px;
+  color: #6c6c6c;
+  max-width: 720px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: 12px;
+  color: #6c6c6c;
+}
+
+.grid {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 24px;
+  align-items: start;
+}
+
+.form {
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 16px;
+  padding: 24px;
+  display: grid;
+  gap: 10px;
+}
+
+.form label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form input,
+.form select,
+.form textarea {
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font: inherit;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.previewCard {
+  background: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+}
+
+.qrFrame {
+  border: 1px solid #ececec;
+  border-radius: 12px;
+  padding: 16px;
+  background: #ffffff;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.previewText {
+  margin: 0;
+  color: #666;
+  font-size: 12px;
+  word-break: break-all;
+}
+
+.downloadButton {
+  border: none;
+  border-radius: 999px;
+  background: #161616;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 22px;
+  cursor: pointer;
+}
+
+.downloadButton:disabled {
+  background: #9a9a9a;
+  cursor: not-allowed;
+}
+
+@media (max-width: 940px) {
+  .wrapper {
+    padding: 32px 20px 64px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
